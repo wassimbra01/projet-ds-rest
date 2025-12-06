@@ -1,7 +1,6 @@
 
 const express = require('express');
 const router = express.Router();
-// const { protect } = require('../middleware/auth');  // ← Commente ça
 const { register, login, getMe } = require('../controllers/authController');
 
 // Route d'inscription - Public
